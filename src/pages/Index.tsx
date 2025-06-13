@@ -1,24 +1,29 @@
 
-import Hero from "@/components/Hero";
-import { About } from "../components/About";
 import { Portfolio } from "../components/Portfolio";
-import { Testimonials } from "../components/Testimonials";
+import { About } from "@/components/About";
+import { TestimonialSection } from "@/components/Testimonial";
 import { Booking } from "../components/Booking";
 import { SocialProof } from "../components/SocialProof";
 import Navbar from "@/components/Navbar";
 import { Footer } from "../components/Footer";
 import VideoThatSells from "@/components/VideoThatSells";
+import { RecentWorkSection } from "@/components/RecentWorkSection";
+import { InstagramSection } from "@/components/InstagramWork";
+import Hero from "@/components/Hero";
+import { FaqSection } from "@/components/FAQSection";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navbar />
-      <Hero />
+      <Hero/>
       <VideoThatSells/>
-      <About />
+      <InstagramSection/>
+      <About/>
       <Portfolio />
-      <Testimonials />
+      <TestimonialSection  />
       <Booking />
+      <FaqSection/>
       <SocialProof />
       <Footer />
     </div>

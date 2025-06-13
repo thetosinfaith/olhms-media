@@ -5,7 +5,7 @@ interface VideoItem {
   icon: 'clapboard' | 'playButton' | 'monitor' | 'phonePlay' | 'microphone' | 'videoCamera' | 'photoFilm';
 }
 
-const VideoThatSells: React.FC = () => {
+const VideoThatSells: React.FC<{ className?: string }> = ({ className }) => {
   const videoContent: VideoItem[] = [
     { text: "Brand Story Films", icon: "clapboard" },
     { text: "Event Highlight Reels", icon: "playButton" },
@@ -66,7 +66,7 @@ const VideoThatSells: React.FC = () => {
   };
 
   return (
-    <div className="w-full bg-yellow-400 py-4 overflow-hidden relative">
+    <div className={`${className} w-full py-4 overflow-hidden relative`}>
       <style>
         {`
         @keyframes scroll-left {
@@ -83,16 +83,16 @@ const VideoThatSells: React.FC = () => {
         }
         `}
       </style>
-      <div className="flex items-center space-x-8 px-4 py-3 rounded-full bg-blue-900 mx-auto max-w-[90vw] shadow-lg overflow-hidden">
+      <div className="flex items-center space-x-8 px-4 py-3 rounded-full bg-gray-50 mx-auto max-w-[90vw] shadow-lg overflow-hidden">
         <div className="scrolling-content flex-shrink-0 flex items-center space-x-8">
           {videoContent.map((item, index) => (
-            <div key={`first-${index}`} className="flex items-center space-x-2 text-white text-lg sm:text-xl font-semibold whitespace-nowrap px-4 py-2">
+            <div key={`first-${index}`} className="flex items-center space-x-2 text-black text-lg sm:text-xl font-semibold whitespace-nowrap px-4 py-2">
               <span>{item.text}</span>
               <IconComponent type={item.icon} />
             </div>
           ))}
           {videoContent.map((item, index) => (
-            <div key={`second-${index}`} className="flex items-center space-x-2 text-white text-lg sm:text-xl font-semibold whitespace-nowrap px-4 py-2">
+            <div key={`second-${index}`} className="flex items-center space-x-2 text-black text-lg sm:text-xl font-semibold whitespace-nowrap px-4 py-2">
               <span>{item.text}</span>
               <IconComponent type={item.icon} />
             </div>
