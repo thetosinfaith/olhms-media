@@ -124,7 +124,7 @@ export const ServicesSection = () => {
                 <p className="text-sm text-gray-300 mb-4 tracking-wide">
                   {service.frontDetails}
                 </p>
-                <button className="bg-zinc-500 text-white rounded-full px-5  py-2 text-sm flex items-center gap-2 hover:bg-black transition-all duration-300 self-start font-semibold shadow-md">
+                <button className="bg-zinc-500 text-white rounded-full px-5   py-2 text-sm flex items-center gap-2 hover:bg-black transition-all duration-300 self-start font-semibold shadow-md">
                   FIND OUT MORE
                   <div className="w-6 h-6 rounded-full bg-white flex items-center justify-center">
                     <ArrowRight size={14} className="text-zinc-500" />
