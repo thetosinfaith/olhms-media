@@ -35,14 +35,14 @@ function Hero({ className }) {
         </div>
 
         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 text-center lg:text-left">
+          <div className="space-y-8 text-left lg:text-left">
             <h1
               className="text-4xl md:text-5xl lg:text-7xl font-extrabold leading-tight tracking-tight"
               data-aos="fade-right"
               data-aos-duration="1200"
             >
               We Make <br />
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-teal-500">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-zinc-400 to-zinc-500">
                 Viral Videos
               </span>
             </h1>
@@ -88,12 +88,12 @@ function Hero({ className }) {
 
               <Link
                 to="/portfolio"
-                className="flex items-center justify-between bg-transparent border bg-gradient-to-r from-cyan-500 to-blue-600 text-black font-bold rounded-full px-8 py-4 text-lg
+                className="flex items-center justify-between bg-transparent border bg-gradient-to-r from-zinc-600 to-zinc-900 text-black font-bold rounded-full px-8 py-4 text-lg
                   shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-in-out
-                  focus:outline-none focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-75 border-cyan-500 text-white rounded-full px-6 py-3 hover:bg-cyan-900 transition-colors group"
-              >
+                  focus:outline-none focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-75 border-zinc-500 text-white rounded-full px-6 py-3 hover:bg-cyan-900 transition-colors group"
+              > 
                 Explore My Work
-                <span className="bg-cyan-500 text-white rounded-full p-2 ml-2 transition-transform duration-200 group-hover:rotate-45">
+                <span className="bg-white text-zinc-900 rounded-full p-2 ml-2 transition-transform duration-200 group-hover:rotate-45">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"

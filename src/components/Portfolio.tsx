@@ -235,8 +235,8 @@ export const Portfolio = () => {
             View All Projects
             <span
               className="
-      bg-cyan-500 text-white rounded-full p-2 ml-2 /* Icon Background, Shape, Padding, Margin */
-      transition-transform duration-200 group-hover:rotate-45 /* Icon Transform on Group Hover */
+      bg-white text-black rounded-full p-2 ml-2 
+      transition-transform duration-200 group-hover:rotate-45 
     "
             >
               <svg

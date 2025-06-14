@@ -84,12 +84,12 @@ function Navbar() {
 
             <NavLink
                         to="/portfolio"
-                        className="flex items-center justify-between bg-transparent border bg-gradient-to-r from-cyan-500 to-blue-600 text-black font-bold rounded-full px-8 py-4 text-lg
+                        className="flex items-center justify-between bg-transparent border bg-zinc-900 text-black font-bold rounded-full px-8 py-4 text-lg
                                         shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-in-out
-                                        focus:outline-none focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-75 border-cyan-500 text-white rounded-full px-6 py-3 hover:bg-cyan-900 transition-colors group"
+                                        focus:outline-none focus:ring-4 focus:ring-black-500 focus:ring-opacity-75 border-black-500 text-white rounded-full px-6 py-3 hover:bg-cyan-900 transition-colors group"
                       >
-                        Need Corporate Videos?
-                        <span className="bg-cyan-500 text-white rounded-full p-2 ml-2 transition-transform duration-200 group-hover:rotate-45">
+                        Need Corporate Videos
+                        <span className="bg-white text-black rounded-full p-2 ml-2 transition-transform duration-200 group-hover:rotate-45">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"

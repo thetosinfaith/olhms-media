@@ -6,28 +6,7 @@ export const Footer = () => {
   return (
     <footer className="w-full bg-black text-white py-12 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col items-center justify-center mb-12 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6">
-            Subscribe to Our Newsletter
-          </h2>
-          <p className="text-gray-400 mb-6 max-w-md">
-            Stay up-to-date with the latest news, events, and insights from Olhms Media.
-          </p>
-          <div className="flex w-full max-w-md">
-            <input
-              type="email"
-              placeholder="Enter your email address"
-              aria-label="Enter your email address for newsletter subscription"
-              className="flex-1 bg-gray-900 border border-gray-700 focus:border-white focus:outline-none text-white p-3 rounded-l-md transition-colors duration-200"
-            />
-            <button
-              type="submit"
-              className="bg-white text-black px-6 py-3 rounded-r-md font-medium hover:bg-gray-200 transition-colors duration-200"
-            >
-              Subscribe
-            </button>
-          </div>
-        </div>
+       
 
         <hr className="border-gray-800 my-8" />
 

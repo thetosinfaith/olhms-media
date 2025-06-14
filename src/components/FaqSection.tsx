@@ -4,8 +4,8 @@ import { useState } from "react";
 import { Plus, Minus, Send } from "lucide-react";
 
 export const FaqSection = () => {
-  const [openQuestion, setOpenQuestion] = useState<number | null>(null); // Initialize with null for no open question
-  const [activeTab, setActiveTab] = useState<string>("Brand Design"); // Renamed for clarity with your existing data
+  const [openQuestion, setOpenQuestion] = useState<number | null>(null); 
+  const [activeTab, setActiveTab] = useState<string>("Brand Design"); 
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -64,7 +64,7 @@ export const FaqSection = () => {
   ];
 
   const serviceCategories = [
-    "Brand Design", // Changed to match your activeTab initial state and existing button text
+    "Brand Design", 
     "Web Development",
     "Digital Marketing",
     "Content Creation",
@@ -165,125 +165,7 @@ export const FaqSection = () => {
           </div>
         </div>
 
-        <div className="mt-24 bg-amber-50 rounded-xl p-8 md:p-12 shadow-xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3 text-gray-900">
-            Start Your Project With Us
-          </h2>
-          <div className="flex items-center gap-3 mb-8">
-            <div className="flex -space-x-2">
-              {[...Array(5)].map((_, i) => (
-                <div
-                  key={i}
-                  className="w-10 h-10 rounded-full bg-amber-300 border-2 border-white flex items-center justify-center text-sm font-medium text-amber-900"
-                ></div>
-              ))}
-            </div>
-            <p className="text-xl text-gray-700 italic">
-              Let's make & build something amazing together!
-            </p>
-          </div>
-
-          <form onSubmit={handleFormSubmit} className="w-full">
-            <div className="mb-6">
-              <h3 className="mb-3 font-semibold text-lg text-gray-800">
-                How can we help?
-              </h3>
-              <div className="flex flex-wrap gap-3">
-                {serviceCategories.map((category) => (
-                  <button
-                    type="button"
-                    key={category}
-                    className={`px-5 py-2 rounded-full text-base font-medium transition-colors duration-200 ${
-                      activeTab === category
-                        ? "bg-amber-600 text-white shadow-md"
-                        : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                    }`}
-                    onClick={() => setActiveTab(category)}
-                  >
-                    {category}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-              <div>
-                <label
-                  htmlFor="fullName"
-                  className="block mb-2 text-sm font-medium text-gray-700"
-                >
-                  Full name
-                </label>
-                <input
-                  type="text"
-                  id="fullName"
-                  name="fullName"
-                  placeholder="What's your name?"
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent outline-none transition-all duration-200"
-                  value={formData.fullName}
-                  onChange={handleFormChange}
-                  required
-                />
-              </div>
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block mb-2 text-sm font-medium text-gray-700"
-                >
-                  Email Address
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="What's your email?"
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent outline-none transition-all duration-200"
-                  value={formData.email}
-                  onChange={handleFormChange}
-                  required
-                />
-              </div>
-            </div>
-
-            <div className="mb-6">
-              <label
-                htmlFor="message"
-                className="block mb-2 text-sm font-medium text-gray-700"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                placeholder="What else can you share about the project?"
-                className="w-full p-3 border border-gray-300 rounded-lg h-32 resize-y focus:ring-2 focus:ring-amber-500 focus:border-transparent outline-none transition-all duration-200"
-                value={formData.message}
-                onChange={handleFormChange}
-                required
-              ></textarea>
-            </div>
-
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <button
-                type="submit"
-                className="bg-black text-white rounded-full px-6 py-3 flex items-center gap-2 font-semibold text-lg hover:bg-gray-800 transition-colors duration-200 shadow-lg"
-              >
-                <Send size={20} /> Send Message
-              </button>
-              <p className="text-xs text-gray-500 text-center md:text-right">
-                By clicking this button, you agree to our{" "}
-                <a
-                  href="#"
-                  className="text-amber-600 hover:underline font-medium"
-                >
-                  privacy policy
-                </a>
-                .
-              </p>
-            </div>
-          </form>
-        </div>
-      </div>
+       </div>
     </section>
   );
 };

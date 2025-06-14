@@ -1,7 +1,7 @@
 
 import { Portfolio } from "../components/Portfolio";
 import { About } from "@/components/About";
-import { TestimonialSection } from "@/components/Testimonial";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { Booking } from "../components/Booking";
 import { SocialProof } from "../components/SocialProof";
 import Navbar from "@/components/Navbar";
@@ -11,6 +11,7 @@ import { RecentWorkSection } from "@/components/RecentWorkSection";
 import { InstagramSection } from "@/components/InstagramWork";
 import { FaqSection } from "@/components/FaqSection";
 import Hero from "@/components/Hero";
+import { ServicesSection } from "@/components/ServicesSection";
 
 const Index = () => {
   return (
@@ -21,10 +22,10 @@ const Index = () => {
       <InstagramSection/>
       <About/>
       <Portfolio />
-      <TestimonialSection  />
+      <ServicesSection/>
+      <TestimonialsSection/>
       <Booking />
       <FaqSection/>
-      <SocialProof />
       <Footer />
     </div>
   );
