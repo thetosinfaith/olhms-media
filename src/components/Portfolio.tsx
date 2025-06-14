@@ -105,12 +105,12 @@ export const Portfolio = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
             Our Work
           </h2>
-          <p className="text-lg md:text-xl text-left text-gray-400 max-w-3xl font-medium">
+          <p className="text-lg md:text-xl text-left text-black max-w-3xl font-medium">
             <i> Don’t worry, evidence full ground </i>
           </p>
         </div>
 
-        <div className="flex overflow-x-auto snap-x snap-mandatory pb-4 gap-6 md:gap-8">
+        <div className="flex overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-4 gap-6 md:gap-8">
           {projects.map((project) => (
             <Dialog key={project.id}>
               <DialogTrigger asChild>
