@@ -9,8 +9,8 @@ import { Footer } from "../components/Footer";
 import VideoThatSells from "@/components/VideoThatSells";
 import { RecentWorkSection } from "@/components/RecentWorkSection";
 import { InstagramSection } from "@/components/InstagramWork";
+import { FaqSection } from "@/components/FaqSection";
 import Hero from "@/components/Hero";
-import { FaqSection } from "@/components/FAQSection";
 
 const Index = () => {
   return (
