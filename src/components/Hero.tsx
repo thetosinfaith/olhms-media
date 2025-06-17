@@ -90,7 +90,7 @@ function Hero({ className }) {
                 to="/portfolio"
                 className="flex items-center justify-between bg-transparent border bg-gradient-to-r from-zinc-600 to-zinc-900 text-black font-bold rounded-full px-8 py-4 text-lg
                   shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-in-out
-                  focus:outline-none focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-75 border-zinc-500 text-white rounded-full px-6 py-3 hover:bg-cyan-900 transition-colors group"
+                  focus:outline-none focus:ring-4 focus:ring-zinc-500 focus:ring-opacity-75 border-zinc-500 text-white rounded-full px-6 py-3 hover:bg-zinc-900 transition-colors group"
               > 
                 Explore My Work
                 <span className="bg-white text-zinc-900 rounded-full p-2 ml-2 transition-transform duration-200 group-hover:rotate-45">
@@ -175,12 +175,12 @@ function Hero({ className }) {
             </div>
 
             <div
-              className="absolute top-8 right-0 bg-gray-900 rounded-3xl p-6 text-center z-10 shadow-xl transform rotate-6 hover:rotate-0 transition-transform duration-300"
+              className="absolute top-8 right-0 bg-black rounded-3xl p-6 text-center z-10 shadow-xl transform rotate-6 hover:rotate-0 transition-transform duration-300"
               data-aos="zoom-in"
               data-aos-delay="1300"
             >
               <p className="text-sm text-gray-400">Highly Recommended</p>
-              <p className="text-2xl font-bold text-teal-400">450K+</p>
+              <p className="text-2xl font-bold text-zinc-400">450K+</p>
             </div>
 
             <div
@@ -189,7 +189,7 @@ function Hero({ className }) {
               data-aos-delay="1400"
             >
               <p className="text-sm text-gray-400">Viral Video Views</p>
-              <p className="text-2xl font-bold text-cyan-400">25M+</p>
+              <p className="text-2xl font-bold text-zinc-400">25M+</p>
               <div className="mt-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

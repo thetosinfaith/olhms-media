@@ -3,11 +3,11 @@ import Tosin from "../assets/tee.png";
 
 export const About = () => {
   return (
-    <section className="relative w-full bg-gradient-to-br from-black to-gray-900 text-white py-16 md:py-28 overflow-hidden font-inter antialiased">
+    <section id="about" className="relative w-full bg-gradient-to-br from-black to-gray-900 text-white py-16 md:py-28 overflow-hidden font-inter antialiased">
       <div className="absolute inset-0 z-0 opacity-10">
         <div className="w-full h-full bg-[size:32px_32px] [background-image:linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)]"></div>
       </div>
-      <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-neon-cyan rounded-full mix-blend-lighten filter blur-3xl opacity-20 animate-pulse-alt"></div>
+      <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-neon-zinc rounded-full mix-blend-lighten filter blur-3xl opacity-20 animate-pulse-alt"></div>
       <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-neon-purple rounded-full mix-blend-lighten filter blur-3xl opacity-20 animate-pulse-alt animation-delay-2000"></div>
       <div className="absolute -top-1/12 right-0 w-64 h-64 bg-neon-pink rounded-full mix-blend-lighten filter blur-3xl opacity-20 animate-pulse-alt animation-delay-4000"></div>
 
@@ -16,7 +16,7 @@ export const About = () => {
           <div
             className="relative h-[380px] md:h-[520px] lg:h-[600px] rounded-3xl shadow-3xl-custom overflow-hidden
               transform -rotate-2 hover:rotate-0 hover:scale-[1.03] transition-all duration-800 ease-in-out-expo group
-              border-4 border-transparent hover:border-neon-cyan"
+              border-4 border-transparent hover:border-neon-zinc"
           >
             <img
               src={Tosin}
@@ -34,7 +34,7 @@ export const About = () => {
               className="absolute inset-0 bg-[repeating-linear-gradient(0deg,rgba(0,255,255,.15)_0,rgba(0,255,255,.15)_2px,transparent_2px,transparent_4px)]
                 opacity-0 group-hover:opacity-10 transition-opacity duration-200 ease-in-out"
             ></div>
-            <div className="absolute inset-0 border-t border-b border-neon-cyan/50 opacity-0 group-hover:opacity-10 transition-opacity duration-300 animation-delay-100"></div>
+            <div className="absolute inset-0 border-t border-b border-neon-zinc/50 opacity-0 group-hover:opacity-10 transition-opacity duration-300 animation-delay-100"></div>
 
             <div
               className="absolute bottom-6 right-6 w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center
@@ -88,7 +88,7 @@ export const About = () => {
                 YouTube Channel
               </a>
               . It's blown up with over{" "}
-              <strong className="text-neon-cyan font-black text-xl">
+              <strong className="text-neon-zinc font-black text-xl">
                 390,000+ Subscribers
               </strong>{" "}
               and a crazy{" "}

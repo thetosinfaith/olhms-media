@@ -78,7 +78,7 @@ export const ServicesSection = () => {
   };
 
   return (
-    <section className="w-full py-16 px-4 md:px-8 bg-black text-white font-['Space_Grotesk']">
+    <section id="services" className="w-full py-16 px-4 md:px-8 bg-black text-white font-['Space_Grotesk']">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between mb-12">
           <div className="text-left mb-16 mt-10">

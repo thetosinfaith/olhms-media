@@ -120,8 +120,8 @@ export const Portfolio = () => {
                     aspect-[9/16] max-h-[500px] bg-gray-900 rounded-2xl shadow-xl overflow-hidden
                     flex flex-col cursor-pointer
                     transition-all duration-300 ease-in-out transform
-                    hover:scale-[1.03] hover:shadow-2xl hover:shadow-cyan-500/30
-                    border border-gray-800 hover:border-cyan-600
+                    hover:scale-[1.03] hover:shadow-2xl hover:shadow-zinc-500/30
+                    border border-gray-800 hover:border-zinc-600
                   `}
                 >
                   <div className="relative w-full h-full">
@@ -147,9 +147,9 @@ export const Portfolio = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="flex items-center text-white mb-2">
                         {project.type === "video" ? (
-                          <PlayIcon className="mr-2 w-6 h-6 text-cyan-400" />
+                          <PlayIcon className="mr-2 w-6 h-6 text-zinc-400" />
                         ) : (
-                          <EyeIcon className="mr-2 w-6 h-6 text-teal-400" />
+                          <EyeIcon className="mr-2 w-6 h-6 text-zinc-400" />
                         )}
                         <span className="font-bold text-xl text-white">
                           {project.views}
@@ -192,7 +192,7 @@ export const Portfolio = () => {
                   <h3 className="text-3xl md:text-4xl font-extrabold text-white mb-2 leading-tight">
                     {project.title}
                   </h3>
-                  <p className="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-teal-500 mb-4">
+                  <p className="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-zinc-400 to-teal-500 mb-4">
                     {project.category}
                   </p>
                   <p className="text-gray-300 text-lg leading-relaxed">
@@ -202,9 +202,9 @@ export const Portfolio = () => {
                     <Link
                       to={`/projects/${project.id}`}
                       className="inline-flex items-center text-lg font-semibold
-                                    bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-full
+                                    bg-gradient-to-r from-zinc-500 to-zinc-600 text-white px-8 py-4 rounded-full
                                     shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-in-out
-                                    focus:outline-none focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-75"
+                                    focus:outline-none focus:ring-4 focus:ring-zinc-500 focus:ring-opacity-75"
                     >
                       View Full Project
                       <ExternalLinkIcon className="ml-2 w-5 h-5" />
@@ -223,12 +223,12 @@ export const Portfolio = () => {
    inline-flex items-center     
     px-8 py-4                                 
     text-base font-bold text-white            
-    bg-black rounded-full border-cyan-500     
+    bg-black rounded-full border-zinc-500     
     shadow-lg hover:shadow-xl                 
     transform hover:-translate-y-1           
     transition-all duration-300 ease-in-out   
-    focus:outline-none focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-75 
-    hover:bg-cyan-900 transition-colors        
+    focus:outline-none focus:ring-4 focus:ring-zinc-500 focus:ring-opacity-75 
+    hover:bg-zinc-900 transition-colors        
     group                                     
   "
           >
