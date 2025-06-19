@@ -206,7 +206,7 @@ export const Portfolio = () => {
                                     shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-in-out
                                     focus:outline-none focus:ring-4 focus:ring-zinc-500 focus:ring-opacity-75"
                     >
-                      View Full Project
+                      View Our Full Project
                       <ExternalLinkIcon className="ml-2 w-5 h-5" />
                     </Link>
                   </div>
